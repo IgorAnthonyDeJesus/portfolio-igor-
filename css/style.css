@@ -286,7 +286,7 @@ nav a:hover {
         width: 100%;
     }
     .banner__principal {
-        width: 350px;
+        width: 340px;
         height: 300px;
     }
     .cabecalhoprincipal .container {
@@ -307,7 +307,7 @@ nav a:hover {
         left: 30%;
     }
     .banner__principal:hover {
-        padding: 30px  30px 42px 0px;
+        padding: 25px  25px 38px 0px;
     }
     .banner__info {
         display: block;
@@ -336,7 +336,7 @@ nav a:hover {
     }
     .content__curso {
         flex-direction: column;
-        width: 320px;
+        width: 300px;
         margin-top: 40px;
     }
     .curso__info img {
@@ -352,20 +352,20 @@ nav a:hover {
         text-align: center;
     }
     .competencia__lista {
-        width: 350px;
+        width: 300px;
         align-items: flex-start;
         flex-direction: column;
         flex-wrap: nowrap;
     }
     .habilidades__lista {
-        width: 350px;
+        width: 300px;
         align-items: flex-start;
         flex-direction: column;
         flex-wrap: nowrap;
     }
     .content__formacao {
         flex-direction: column;
-        width: 350px;
+        width: 320px;
     }
     .forlogo {
         margin-left: 100px;
