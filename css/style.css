@@ -1,4 +1,6 @@
-
+body {
+    background-color: #333333;
+}
 .cabecalhoprincipal {
     background-color: rgb(0, 49, 112);
     border-bottom: 13px solid #1e5b8d;
@@ -40,7 +42,7 @@ nav a:hover {
 }
 .banner {
     background-image: url(../img/0_e9IzXjFu8p8wC9KF.png);
-
+    border-bottom: 20px solid rgb(48, 48, 48);
 }
 .banner__principal {
     background-size: cover;
@@ -88,13 +90,14 @@ nav a:hover {
 .titulo-principal{
     padding: 80px;
     text-transform: uppercase;
-    color: rgb(38, 0, 255);
+    color: #5ea4ff;
     font-size: 37px;
     font-family: 'Unbounded', cursive;
     font-weight: 700;
     text-align: center;
 }
 .content-1 .sobre {
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: 'Unbounded', cursive;
     width: 1000px;
@@ -103,10 +106,7 @@ nav a:hover {
     margin: 0 auto;
     line-height: 33px;
 }
-#cursos-id {
-    background-color: #fcfcfc;
-    border-top: 10px solid #f8f8f8;
-}
+
 .cursos {
     text-align: center;
     padding: 20px;
@@ -128,12 +128,9 @@ nav a:hover {
 .p-padrao::before {
     content: "┃";
     font-weight: bold ;
-    color: #006eff;
+    color: #5ea4ff;
 }
-#formaçao-id {
-    background-color: #f5f5f5;
-    border-top: 10px solid #ebebeb;
-}
+
 .content__curso {
     display: flex;
     margin-top: 4rem;
@@ -166,13 +163,13 @@ nav a:hover {
     word-spacing: 10px;
     text-align: left;
     line-height: 40px;
-    color: #4b4b4b;
+    color: white;
 }
 .content__item::before {
     content: "┃";
     margin: 0 3px;
     font-weight: bold ;
-    color: #006eff;
+    color: #5ea4ff;
 }
 .content__logo {
     width: 100px;
@@ -182,7 +179,7 @@ nav a:hover {
     box-shadow: 2px 2px 10px#000000;
 }
 .content__item strong{
-    color: #006eff;
+    color: #5ea4ff;
     font-weight: 700;
 }
 .competencia__lista {
@@ -196,7 +193,7 @@ nav a:hover {
     font-family: 'Unbounded', cursive;
     font-size: 22px;
     padding: 20px;
-    color: #4b4b4b;
+    color: white;
 }
 .competencia__item:hover {
     font-size: 25px;
@@ -205,12 +202,9 @@ nav a:hover {
     content: "┃";
     margin: 0 3px;
     font-weight: bold ;
-    color: #006eff;  
+    color: #5ea4ff;  
 }
-#competencia-id {
-    background-color: #f0f0f0;
-    border-top: 10px solid #e7e7e7;
-}
+
 .habilidades__lista {
     width: 980px;
     padding: 30px;
@@ -223,15 +217,12 @@ nav a:hover {
     content: "┃";
     margin: 0 3px;
     font-weight: bold ;
-    color: #006eff;  
+    color: #5ea4ff;  
 }
 .habilidades__item:hover {
     font-size: 25px;
 }
-#habilidades-id {
-    border-top: 10px solid #e7e7e7;
-    background-color: #f0f0f0;
-}
+
 .contato {
     background-color: #ebebeb;
     border-top: 10px solid #d4d4d4;
